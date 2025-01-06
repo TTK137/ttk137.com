@@ -1,0 +1,99 @@
+/*body{background: url("images/nature.jpg");}*/
+body
+{
+	background: url("images/bg/city.gif");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a
+{
+	color: #110deb;
+	display: inline-block;
+	margin-top: 18px;
+	margin-bottom: 0;
+	margin-left: 30px;
+	margin-right: 0;
+	cursor: pointer;
+	transition: 15s;
+}
+
+.top-bar
+{
+	/* margin: 0px;
+	margin-top: 0px; */
+	background-color: hsla(90, 3%, 13%, 0.599);
+	width: auto;
+	height: 5.5vh;
+	margin: 0;
+	border-radius: 75px;
+	/* opacity: 0.20; */
+	color: white;
+	overflow: hidden;
+}
+
+#con-btn
+{
+	display: inline-block;
+	background-color: hsla(90, 3%, 13%, 0);
+	color: white;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	font-size: 150%;
+	margin-right: 0px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: 0.15s;
+	border: none;
+}
+
+#con-btn:hover
+{
+	opacity: 0.5;
+}
+
+#con-btn:active
+{
+	opacity: 0.9;
+}
+
+.main
+{
+	border-radius: 75px;
+	font-size: 200%;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 0px;
+	margin-left: 25%;
+	margin-right: 0px;
+	background-color: rgba(0, 0, 0, 0.651);
+	color: rgba(11, 155, 11, 0.699); /* rgba(10, 126, 10, 0.699) */
+	width: 50%;
+	height: 750px;
+}
+
+.logo
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 260px;
+	margin-right: 0;
+	cursor: pointer;
+}
+
+.downloads-txt
+{
+	transition: 0.15s;
+}
+
+.downloads-txt:hover
+{
+	color: red;
+}
+
+.downloads-txt:active
+{
+	color: rgb(0, 255, 213);
+}
